@@ -243,18 +243,18 @@ list=document.querySelectorAll(".alarm");
       }
       if(thour<12&&thour>4){
             document.getElementById("wish").innerHTML="Good Morning";
-            document.body.style="background: url(morning.jpg);background-size: 100%;";
+            document.body.style="background-image: url(morning.jpg);";
       }
       else if(thour>=12&&thour<17){
             document.getElementById("wish").innerHTML="Good Afternoon";
-            document.body.style="background: url(afternoon.jpg);background-size: 100%;";
+            document.body.style="background-image: url(afternoon.jpg);";
       }
-      else if(thour>17&&thour<20){
+      else if(thour>=17&&thour<20){
          document.getElementById("wish").innerHTML="Good Evening";
-         document.body.style="background: url(evening.jpg);background-size: 100%;";
+         document.body.style="background-image: url(evening.jpg);";
    }
    else{
       document.getElementById("wish").innerHTML="Good Night";
-      document.body.style="background: url(night.jpg);background-size: 100%;";
+      document.body.style="background-image: url(night.jpg);";
    }
    }, 1000);
