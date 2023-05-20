@@ -227,7 +227,7 @@ list=document.querySelectorAll(".alarm");
       if(med=="pm"){
          if(hour!=12)
          {
-         thour=hour+12;
+         thour=17;
       }
       else{
          thour=hour;
