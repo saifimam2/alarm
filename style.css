@@ -205,6 +205,7 @@ input:checked + .slider:before {
 @media(max-width:321px){
   body{
     background-size: cover;
+    background-position: center center;
   }
   .options select{
     font-size: 12px;
