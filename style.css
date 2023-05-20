@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans&family=Roboto&display=swap');
 body{
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vh 100vw;
 }
 .buttons{
   display: flex;
@@ -183,12 +183,18 @@ input:checked + .slider:before {
   color: white;
 }
 @media(max-width:768px){
+  body{
+   background-size: 100vh 100vw;
+  }
   .flexbox{
     width: 50%;
     transform: translateY(0%);
   }
 }
 @media(max-width:426px){
+  body{
+    background-size: 100vh 100vw;
+  }
   .flexbox{
     width: 90%;
   }
@@ -197,6 +203,9 @@ input:checked + .slider:before {
   }
 }
 @media(max-width:321px){
+  body{
+    background-size: 100vh 100vw;
+  }
   .options select{
     font-size: 12px;
   }
